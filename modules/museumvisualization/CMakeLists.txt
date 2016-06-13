@@ -6,6 +6,7 @@ ivw_module(museumvisualization)
 # Add header files
 set(HEADER_FILES
     #${CMAKE_CURRENT_SOURCE_DIR}/museumvisualizationprocessor.h
+    ${CMAKE_CURRENT_SOURCE_DIR}/processors/tabprocessor.h
 )
 ivw_group("Header Files" ${HEADER_FILES})
 
@@ -13,6 +14,7 @@ ivw_group("Header Files" ${HEADER_FILES})
 # Add source files
 set(SOURCE_FILES
     #${CMAKE_CURRENT_SOURCE_DIR}/museumvisualizationprocessor.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/processors/tabprocessor.cpp
 )
 ivw_group("Source Files" ${SOURCE_FILES})
 

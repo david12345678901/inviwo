@@ -36,9 +36,9 @@
 
 namespace inviwo {
 
-class IVW_MODULE_MUSEUMVISUALIZATION_API museumvisualizationModule : public InviwoModule {
+class IVW_MODULE_MUSEUMVISUALIZATION_API MuseumvisualizationModule : public InviwoModule {
 public:
-    museumvisualizationModule(InviwoApplication* app);
+    MuseumvisualizationModule(InviwoApplication* app);
 };
 
 } // namespace

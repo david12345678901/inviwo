@@ -31,14 +31,14 @@
 
 namespace inviwo {
 
-museumvisualizationModule::museumvisualizationModule(InviwoApplication* app) : InviwoModule(app, "museumvisualization") {   
+MuseumvisualizationModule::MuseumvisualizationModule(InviwoApplication* app) : InviwoModule(app, "museumvisualization") {   
     // Add a directory to the search path of the Shadermanager
     // ShaderManager::getPtr()->addShaderSearchPath(getPath(ModulePath::GLSL));
 
     // Register objects that can be shared with the rest of inviwo here:
     
     // Processors
-    // registerProcessor<museumvisualizationProcessor>();
+    // registerProcessor<TabProcessor>();
     
     // Properties
     // registerProperty<museumvisualizationProperty>();
