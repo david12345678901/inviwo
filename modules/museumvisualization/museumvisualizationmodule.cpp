@@ -28,6 +28,7 @@
  *********************************************************************************/
 
 #include <modules/museumvisualization/museumvisualizationmodule.h>
+#include <modules/museumvisualization/processors/tabprocessor.h>
 
 namespace inviwo {
 
@@ -38,7 +39,7 @@ MuseumvisualizationModule::MuseumvisualizationModule(InviwoApplication* app) : I
     // Register objects that can be shared with the rest of inviwo here:
     
     // Processors
-    // registerProcessor<TabProcessor>();
+    registerProcessor<TabProcessor>();
     
     // Properties
     // registerProperty<museumvisualizationProperty>();
