@@ -39,6 +39,7 @@ MuseumvisualizationModule::MuseumvisualizationModule(InviwoApplication* app) : I
     // Register objects that can be shared with the rest of inviwo here:
     
     // Processors
+    // test comment
     registerProcessor<TabProcessor>();
     
     // Properties
