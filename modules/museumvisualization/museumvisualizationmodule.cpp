@@ -40,6 +40,7 @@ MuseumvisualizationModule::MuseumvisualizationModule(InviwoApplication* app) : I
     
     // Processors
     // test comment
+    // test
     registerProcessor<TabProcessor>();
     
     // Properties
